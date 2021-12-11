@@ -1,0 +1,107 @@
+/*Common CSS start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;;
+}
+/*Common CSS end*/
+
+/*Header start*/
+header{
+	padding: 20px 0;
+	border-bottom: 1px solid #e7e7e7;
+	/*border: 1px solid red;*/
+}
+
+.container{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.logo{
+	margin: 11px 0 0 0;
+	width: 15%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 60%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	margin: 0 20px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.15s;
+    border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*Header end*/
+
+/*Newsletter start*/
+.newsletter{
+	padding: 75px 0;
+	background-color: #f0f0f0;
+}
+
+.nl_content{
+	text-align: center;
+}
+.nl_content h1{
+	margin: 0 0 50px;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.nl_info{
+	width: 33%;
+    margin: 0 auto;
+    padding: 5px;
+	border-bottom: 2px solid;
+	overflow: hidden;
+}
+.nl_info input{
+	width: 80%;
+	background-color:#f0f0f0 ;
+	border-width:0px;
+	border:none;
+	outline:none;
+	font-family: PlayfairDisplay-Regular;
+	float: left;
+}
+.nl_info button{
+	width: 13%;
+	border: 0;
+	float: right;
+}
+.nl_info button img{
+	width: 100%;
+}
+/*Newsletter end*/
+
+
+
